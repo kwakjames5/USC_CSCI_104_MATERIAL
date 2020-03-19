@@ -1,5 +1,0 @@
-# Hashes of file build rules.
-5985f15b87e929522eea69e4ce2cd782 /home/cs104/Repositories/hw-kwakjame/hw6/twitter
-6deb9f8af470f77d852cfa063ae21a44 CMakeFiles/check
-4326cbc42a5254cc856bf97266e42a6a CMakeFiles/grade
-e4bdab796f7f165dfd6f00eef344f848 scc_tests/CMakeFiles/run_make_scc

@@ -1,1 +1,0 @@
-/usr/bin/c++    -Wall -g3 -O0   CMakeFiles/hw6_sat.dir/home/cs104/Repositories/hw-kwakjame/hw6/sat_solver.cpp.o  -o hw6_sat 
