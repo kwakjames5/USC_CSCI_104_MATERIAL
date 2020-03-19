@@ -1,0 +1,92 @@
+Problem 1)
+a) No changes were implemented after the pull, so 
+README.md will be up-to-date, unmodified and tracked 
+because it has been fully updated with the master. 
+
+b) fun_problem.txt will be under "untracked" because
+the file has yet to be staged or added. The README file
+has will show as a modified and ready to be staged again.
+
+c) The README file will be staged per usual since it is
+a file that has already previously been staged. It will
+be ready to be committed after. The txt file will also
+be staged to be committed but it will have indication
+that it is a file that has never previously been
+staged.
+
+d) The two files will be committed then appear as
+tracked and modified and ready to be staged 
+after the changes.
+
+e) The README file is now modified, staged and ready
+to be committed. The txt file on the other hand
+will have all of its previous changes reverted
+as according to "checkout --". It is now an
+empty txt file as it now has what was in it
+during its previous pull after the changes
+were discarded.
+
+f) The README file is now modified and staged and
+ready to be committed. This is because an older
+version of the README file has already been staged
+once.
+
+
+
+Problem 2)
+a) Every action line in a makefile must start with a TAB.
+
+b) "make clean" will run the non-phony clean
+and removes shape1 and shape2. It will then remove
+anything in the file that ends with "~". It will also
+remove any back up files that are in "/".
+"make shape1" is saying to build a shape1
+using shape1.o.
+
+
+c) .PHONY is used to create out-of-date targets that 
+run independently from the state of the file system.
+It is used when you want your makefile to run
+commands that are not physically represented in 
+the file system.
+
+d) Makefile and makefile are acceptable names.
+
+
+
+Problem 3)
+1) Because we do not have to store the year and only
+have to keep track of the names of the colleges in the
+order they won their championships, a list of strings
+of the names of the winners would be enough since list
+items have indexes that are accessed based on order.
+
+2) Because we want to create an accessible container
+with every unique SSN, it would make the most sense 
+to use a set that contains all of the SSN of 
+the people who have already voted.
+
+3) In this case, we want a map of names that 
+are paired up with a set of different phone
+numbers (home, mobile, work, etc.).
+Each phone number in the set will
+be written out as a string. A set is used
+over a list since each phone number
+is unique.
+
+4) To track the zip codes available in 
+given states, I would use a map that pairs
+each of the states (as two letter strings)
+with sets of zipcodes.
+
+5) If we are just tracking the types
+of donuts they bought, a list with
+a dozen items (each being a type of donut)
+would suffice. If we want to track which
+student ordered which combination of
+a dozen donuts, we would use map and pair
+each unique student with their list of
+preferred donut flavors. We use list over
+set since a person may buy 12 of the same
+flavor, meaning a set, which only allows
+unique items, would not work.
