@@ -1,0 +1,67 @@
+QUESTION #1:
+
+Part (a):
+
+- Looking up information relevant to the course online.
+- Talking to my classmates about general approaches about the problems 
+(but no specific coding statements or description of 
+your own code or someone else's code).
+- Asking the course staff for help.
+
+Part (b):
+
+- Complete the regrade request form within 1 week of
+receiving the grade and wait for an issue to be posted
+to your Github repo.
+- Visit the designated regrade TA within 1 week of
+your score posting.
+
+Part(c):
+
+- Each student has 4 late days of which only 1 can be used per HW
+
+Part(d):
+
+- Clone your repo to a temporary folder to ensure all the
+files you desire are pushed and that your code compiles.
+
+Part (e):
+
+None. We will not accept your submission.
+
+Part (f):
+
+- True
+- False
+- True
+
+QUESTION #2:
+
+Part (a):
+
+- Cloning into a folder that itself is a git repo
+
+Part (b):
+
+1) git add hw1q2b.cpp
+2) git log
+
+Part (c)
+
+- git clone git@github.com:CSCI104.git
+
+QUESTION #7:
+a) 
+
+Entry
+
+b)
+
+Has already been constucted, so will not print anything.
+
+c)
+
+Wrapper::Wrapper(const Str& name, const Str& phone)
+{
+	e_ = Entry(name, phone);
+}

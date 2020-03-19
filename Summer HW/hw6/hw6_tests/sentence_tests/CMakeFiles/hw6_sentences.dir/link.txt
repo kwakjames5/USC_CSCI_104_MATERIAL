@@ -1,0 +1,1 @@
+/usr/bin/c++    -Wall -g3 -O0   CMakeFiles/hw6_sentences.dir/home/cs104/Repositories/hw-kwakjame/hw6/sentences.cpp.o  -o hw6_sentences 
